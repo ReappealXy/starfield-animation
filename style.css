@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    background-color: #000;
+    font-family: 'Arial', sans-serif;
+}
+
+#starfield {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.info {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    z-index: 2;
+    pointer-events: none;
+    user-select: none;
+}
+
+.info p {
+    margin: 5px 0;
+} 
